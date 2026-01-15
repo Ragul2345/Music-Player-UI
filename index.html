@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tamil Music Player UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+  <img id="cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4D2xLub0Dd4IPTO7bqN_TFh3LGjJsi4gii2yW-Rzi5_AnT_8ccRFkw6Y&s" class="cover">
+
+  <h2 id="song">Munbe Vaa</h2>
+  <p class="artist">Tamil Hits</p>
+
+  <div class="progress-container">
+    <div id="progress"></div>
+  </div>
+
+  <div class="controls">
+    <button onclick="prev()">⏮</button>
+    <button onclick="playPause()" id="play">▶</button>
+    <button onclick="next()">⏭</button>
+  </div>
+
+  <ul id="playlist"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
